@@ -70,7 +70,7 @@ def check_copies(copied_cards):
         for j in range(matches):
             copied_cards.append(lines[card_index + j])
             count += 1
-        check_copies(copied_cards)
+        check_copies(copied_cards
 
 
 card_values = []
