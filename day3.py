@@ -110,7 +110,6 @@ def int_search_along_row():
         i = 1
         loop = True
         while loop:
-            print(full_integer_positions)
             if [integer_position[0], integer_position[1] + i] in full_integer_positions:
                 loop = False
             else:
